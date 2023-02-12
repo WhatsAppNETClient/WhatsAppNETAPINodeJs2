@@ -1,0 +1,1 @@
+require("dotenv").config();const mysql=require("mysql"),{DB_SERVER:DB_SERVER,DB_PORT:DB_PORT,DB_USERNAME:DB_USERNAME,DB_PASSWORD:DB_PASSWORD,DB_DATABASE:DB_DATABASE}=process.env;var pool=mysql.createPool({connectionLimit:10,host:DB_SERVER,port:DB_PORT,user:DB_USERNAME,password:DB_PASSWORD,database:DB_DATABASE});module.exports=pool;

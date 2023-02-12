@@ -1,0 +1,1 @@
+const{addChat:addChat}=require("../db.repository/chats.repository"),chatsSet=async t=>{for(const a of Object.values(t.chats))await addChat(a)},chatsUpdate=async t=>{for(const a of t)await addChat(a)},chatsUpsert=async t=>{for(const a of t)await addChat(a)};module.exports={chatsSet:chatsSet,chatsUpdate:chatsUpdate,chatsUpsert:chatsUpsert};

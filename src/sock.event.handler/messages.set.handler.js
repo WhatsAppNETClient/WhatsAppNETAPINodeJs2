@@ -1,0 +1,1 @@
+const{addMessage:addMessage}=require("../db.repository/messages.repository"),messagesSet=async s=>{for(const e of s.messages)await addMessage(e)};module.exports=messagesSet;
