@@ -10,7 +10,7 @@
 
 1. Buat database nama db_wanet atau dengan nama yang lain
 2. Import struktur database `db_wanet.sql` yang ada di folder sql
-3. Edit file `.env` yang ada di folder WhatsAppNETAPINodeJs, tinggal sesuaikan konfigurasi database 
+3. Edit file `.env` yang ada di folder WhatsAppNETAPINodeJs2, tinggal sesuaikan konfigurasi database 
 4. Buka command prompt, kemudain masuk ke folder WhatsAppNETAPINodeJs2, setelah itu ketik: `npm install` 
 5. Jalankan project [demo](https://github.com/WhatsAppNETClient/WhatsAppNETClient2)
 
