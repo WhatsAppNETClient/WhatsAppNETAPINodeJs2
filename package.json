@@ -11,10 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@adiwajshing/baileys": "^5.0.0",
+    "@adiwajshing/baileys": "github:WhiskeySockets/Baileys",
     "dotenv": "^16.0.0",
     "jimp": "^0.16.1",
-	"link-preview-js": "^2.1.19",
     "mime": "^3.0.0",
     "mime-types": "^2.1.35",
     "mysql": "^2.18.1",
