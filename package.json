@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "github:WhiskeySockets/Baileys",
+	"@adiwajshing/keyed-db": "^0.2.4",
     "dotenv": "^16.0.0",
     "jimp": "^0.16.1",
     "mime": "^3.0.0",
