@@ -11,8 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.2.1",
+    "@whiskeysockets/baileys": "^6.5.0",
     "@adiwajshing/keyed-db": "^0.2.4",
+	"link-preview-js": "^3.0.5",
     "dotenv": "^16.0.0",
     "jimp": "^0.16.1",
     "mime": "^3.0.0",
